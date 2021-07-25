@@ -1,7 +1,7 @@
 import { Component, createResource, createSignal } from "solid-js";
 import styles from "./App.module.css";
-import rosParse from "./rosz";
-import Vehicle from "./Vehicle";
+import rosParse from "./data/rosz";
+import Vehicle from "./Game/Vehicle/Vehicle";
 import JSZip from "jszip";
 
 const parseRosz = async (path: string) => fetch(path)

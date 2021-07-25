@@ -76,6 +76,11 @@ export default function parse(xml: string): GaslandRoster {
         v.hullPoints = parseInt([...characteristics.children].find(c => c.getAttribute("name") === "Hull Points").textContent);
         v.crew = parseInt([...characteristics.children].find(c => c.getAttribute("name") === "Crew").textContent);
 
+        const skills = vehicle.getElementsByTagName("selections")[0].children;
+        [...skills].forEach(skill => {
+            console.log(skill.getAttribute("name"));
+        });
+
         roster.vehicles.push(v);
 
         console.log(v);

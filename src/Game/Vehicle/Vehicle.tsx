@@ -1,4 +1,4 @@
-import { VehicleType, VehicleWeight, Vehicle as V } from "./rosz";
+import { VehicleType, VehicleWeight, Vehicle as V } from "../../data/rosz";
 import styles from "./Vehicle.module.css";
 
 const Vehicle = (props: { vehicle: V }) => (

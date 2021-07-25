@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="f1ae-a0df-67f5-223b" name="Rusty" battleScribeVersion="2.03" gameSystemId="55c7-45e5-b4ec-d17c" gameSystemName="Gaslands" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="3.0"/>
+    <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="50.0"/>
+  </costs>
+  <costLimits>
+    <costLimit name="Cans" typeId="91a9-beed-6d55-d7ea" value="50.0"/>
+  </costLimits>
+  <forces>
+    <force id="a9dc-6569-848b-09c4" name="Team" entryId="60bf-0f00-db63-fb4e" catalogueId="0139-7751-4542-5c90" catalogueRevision="3" catalogueName="Gaslands">
+      <selections>
+        <selection id="f691-320f-b3fa-e3bd" name="Sponsor" entryId="7209-f619-ccee-874e::9318-eb03-9bdd-ec00" number="1" type="upgrade">
+          <selections>
+            <selection id="3df0-daf4-eb08-69e7" name="Rusty&apos;s Bootleggers" entryId="7209-f619-ccee-874e::e91f-341e-63b4-6539" entryGroupId="7209-f619-ccee-874e::e0ac-21ce-2203-7e81" number="1" type="upgrade">
+              <costs>
+                <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="0.0"/>
+                <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="0.0"/>
+            <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="0.0"/>
+          </costs>
+        </selection>
+        <selection id="b60b-9f2a-5a42-4da4" name="Car" entryId="ebb5-bde6-e221-9acc::5fc8-4273-0b18-c611" number="1" type="model">
+          <profiles>
+            <profile id="ebb5-bde6-e221-9acc::34bf-184a-b561-b5d1" name="Car (Extra Crewmember)" hidden="false" typeId="e5e1-86e0-5830-ebf3" typeName="Vehicle">
+              <characteristics>
+                <characteristic name="Weight" typeId="4efa-dfe3-7fb1-23fa">Middleweight</characteristic>
+                <characteristic name="Hull Points" typeId="a05d-324a-bd1a-767e">10</characteristic>
+                <characteristic name="Handling" typeId="6748-870d-e310-84fa">3</characteristic>
+                <characteristic name="Max Gear" typeId="3c64-20de-b449-9e2a">5</characteristic>
+                <characteristic name="Crew" typeId="4fe3-cc78-baa4-a7ad">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="64aa-0a6b-a9a3-3424" name="Dead Weight" entryId="ebb5-bde6-e221-9acc::4931-d253-cb52-cee9::795f-6537-7bb9-d71e" entryGroupId="ebb5-bde6-e221-9acc::4931-d253-cb52-cee9::b05f-10d1-38f2-97f1" number="1" type="upgrade">
+              <costs>
+                <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="2.0"/>
+                <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="b0de-2122-0c1f-1112" name="Bigger&apos;N You" entryId="ebb5-bde6-e221-9acc::4931-d253-cb52-cee9::aba4-5e8d-7925-1b44" entryGroupId="ebb5-bde6-e221-9acc::4931-d253-cb52-cee9::0838-f5d9-d94e-612c" number="1" type="upgrade">
+              <costs>
+                <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="4.0"/>
+                <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="084d-8ea8-81c5-d3aa" name="Lightweight" entryId="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::df2c-181b-b7cf-92ac" entryGroupId="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::70d5-8038-b9eb-a390" number="1" type="upgrade">
+              <selections>
+                <selection id="e37f-69be-23a8-104f" name="Peach Moonshine" entryId="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::f5c9-604c-097d-fde3::e2af-c436-8e6e-c169" entryGroupId="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::f5c9-604c-097d-fde3::04c4-0e9f-556b-817c" number="1" type="upgrade">
+                  <costs>
+                    <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="0.0"/>
+                    <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="4.0"/>
+                <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="89ef-4532-a997-3e31" name="Harpoon" entryId="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::89a2-0bf0-1d3d-5237::27c3-73d9-0d54-57b1" entryGroupId="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::89a2-0bf0-1d3d-5237::4c53-70ee-8e18-ea38" number="1" type="upgrade">
+              <rules>
+                <rule id="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::89a2-0bf0-1d3d-5237::8377-9914-73d4-f35a" name="Harpoon" hidden="false">
+                  <description>Does not cause damage. First un-cancelled hit spins target to face directly away from or towards the attacking vehicle, whichever requires smallest degree of rotation. Subsequent un-cancelled hits each cause target to make a forced Short towards the attacker. If target is heavier than attacker, spin and move attacker towards target instead.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::89a2-0bf0-1d3d-5237::cd38-b87d-ff0b-6695" name="Harpoon" hidden="false" typeId="3418-d4a3-250b-ab45" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="7de6-2500-ebda-e68b">Double</characteristic>
+                    <characteristic name="Attack" typeId="c3db-f302-e618-7458">(5D6)</characteristic>
+                    <characteristic name="Ammo" typeId="f73e-329c-9ced-0585">-</characteristic>
+                    <characteristic name="Special Rules" typeId="a354-1bd0-7431-ae3d">See Rules.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="68e3-c066-2e2b-9417" name="Turret (Cans x3)" entryId="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::89a2-0bf0-1d3d-5237::c8f1-a72a-09ed-e963::bab2-4a49-836f-eee7" entryGroupId="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::89a2-0bf0-1d3d-5237::c8f1-a72a-09ed-e963::fa58-967b-5455-6fde" number="1" type="upgrade">
+                  <costs>
+                    <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="0.0"/>
+                    <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="1.0"/>
+                <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="6.0"/>
+              </costs>
+            </selection>
+            <selection id="ccd7-4ae1-a133-dbdf" name="Extra Crewmember" entryId="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::528f-f0b3-bb2b-8a6a" entryGroupId="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::6998-8ee1-9654-8903" number="1" type="upgrade">
+              <costs>
+                <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="4.0"/>
+                <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="1f24-8415-9c56-1b56" name="Ram" entryId="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::9153-3768-2e17-d56e" entryGroupId="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::6998-8ee1-9654-8903" number="1" type="upgrade">
+              <selections>
+                <selection id="2956-6830-cf41-2ae7" name="Front" entryId="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::080a-0ddd-adb4-4c87::e67e-9cf3-620d-fd1d" entryGroupId="ebb5-bde6-e221-9acc::101c-f2ec-ca46-6094::080a-0ddd-adb4-4c87::fa58-967b-5455-6fde" number="1" type="upgrade">
+                  <costs>
+                    <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="0.0"/>
+                    <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="1.0"/>
+                <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="4.0"/>
+              </costs>
+            </selection>
+            <selection id="55f3-378c-8916-1bf4" name="Bruiser" entryId="ebb5-bde6-e221-9acc::4931-d253-cb52-cee9::c8ab-4815-8b0e-f560" entryGroupId="ebb5-bde6-e221-9acc::4931-d253-cb52-cee9::b05f-10d1-38f2-97f1" number="1" type="upgrade">
+              <costs>
+                <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="4.0"/>
+                <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="12.0"/>
+            <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="3ff4-896f-3843-8ea9" name="Vehicle" entryId="fcb8-8c55-ab34-03d1" primary="true"/>
+            <category id="259b-4ddd-bf99-afe3" name="Middleweight" entryId="96a0-cfb4-47ee-0a2f" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="7df1-ffd6-bae6-ffaa" name="Buggy" entryId="9f49-c392-c136-6351::b242-a818-85e6-b6db" number="1" type="model">
+          <profiles>
+            <profile id="9f49-c392-c136-6351::448a-effe-d0a9-b58c" name="Buggy" hidden="false" typeId="e5e1-86e0-5830-ebf3" typeName="Vehicle">
+              <characteristics>
+                <characteristic name="Weight" typeId="4efa-dfe3-7fb1-23fa">Lightweight</characteristic>
+                <characteristic name="Hull Points" typeId="a05d-324a-bd1a-767e">6</characteristic>
+                <characteristic name="Handling" typeId="6748-870d-e310-84fa">4</characteristic>
+                <characteristic name="Max Gear" typeId="3c64-20de-b449-9e2a">6</characteristic>
+                <characteristic name="Crew" typeId="4fe3-cc78-baa4-a7ad">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="afea-110c-b130-6e7a" name="Machine Gun" entryId="9f49-c392-c136-6351::3c6e-fdb3-7345-4ebd::89a2-0bf0-1d3d-5237::bbee-877e-1934-1980" entryGroupId="9f49-c392-c136-6351::3c6e-fdb3-7345-4ebd::89a2-0bf0-1d3d-5237::4c53-70ee-8e18-ea38" number="1" type="upgrade">
+              <profiles>
+                <profile id="9f49-c392-c136-6351::3c6e-fdb3-7345-4ebd::89a2-0bf0-1d3d-5237::0a51-0e9e-5ac4-ce17" name="Machine Gun" hidden="false" typeId="3418-d4a3-250b-ab45" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="7de6-2500-ebda-e68b">Double</characteristic>
+                    <characteristic name="Attack" typeId="c3db-f302-e618-7458">2D6</characteristic>
+                    <characteristic name="Ammo" typeId="f73e-329c-9ced-0585">-</characteristic>
+                    <characteristic name="Special Rules" typeId="a354-1bd0-7431-ae3d"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="845b-cc69-e21a-e3f5" name="Front" entryId="9f49-c392-c136-6351::3c6e-fdb3-7345-4ebd::89a2-0bf0-1d3d-5237::29b4-45a3-7c49-8a99::e67e-9cf3-620d-fd1d" entryGroupId="9f49-c392-c136-6351::3c6e-fdb3-7345-4ebd::89a2-0bf0-1d3d-5237::29b4-45a3-7c49-8a99::fa58-967b-5455-6fde" number="1" type="upgrade">
+                  <costs>
+                    <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="0.0"/>
+                    <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="1.0"/>
+                <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="2.0"/>
+              </costs>
+            </selection>
+            <selection id="38c5-09da-0c13-a809" name="Dead Weight" entryId="9f49-c392-c136-6351::9c69-5770-7fd6-34c3::795f-6537-7bb9-d71e" entryGroupId="9f49-c392-c136-6351::9c69-5770-7fd6-34c3::b05f-10d1-38f2-97f1" number="1" type="upgrade">
+              <costs>
+                <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="2.0"/>
+                <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="Cans" typeId="91a9-beed-6d55-d7ea" value="6.0"/>
+            <cost name="Build Slots" typeId="ba54-acdf-648d-86c5" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="c553-5724-0bc3-cbf2" name="Vehicle" entryId="fcb8-8c55-ab34-03d1" primary="true"/>
+            <category id="ea60-0a09-cd38-26aa" name="Lightweight" entryId="d4f7-0b52-6568-ee8f" primary="false"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="55c7-45e5-pubEL3DK" name="TX3"/>
+        <publication id="0139-7751-pubN65785" name="TX3"/>
+        <publication id="a0bf-31f8-e06a-12f0" name="Gaslands Refuelled"/>
+      </publications>
+      <categories>
+        <category id="da04-0ef2-e415-5096" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="b6bb-2698-4498-a9ef" name="Vehicle" entryId="fcb8-8c55-ab34-03d1" primary="false"/>
+        <category id="263a-42b2-5257-8878" name="Sponsor" entryId="6b0c-dbca-afd2-7a45" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>
